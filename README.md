@@ -30,7 +30,7 @@ What the work involves:
 - **The work is under NDA.** I agreed not to publish task code, task IDs, repository names or the open-source projects the tasks were built on.
 - **Benchmark tasks must stay out of public view.** These tasks are used to test AI models. If a task appears publicly, it can end up in training data and stops being a fair test, so the task files carry a "never publish" marker.
 
-My GitHub profile still counts these commits as "contributions in private repositories" (most of the green squares from July to November 2026). A written confirmation of this work can be requested from the client.
+My GitHub profile still counts these commits as "contributions in private repositories" (most of the green squares in July and August 2026). A written confirmation of this work can be requested from the client.
 
 ### Tasks completed
 
