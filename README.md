@@ -24,6 +24,45 @@ What the work involves:
 - Calibrating verifiers with **oracle** (must score 1) and **no-op** (must score 0) runs so the task cannot be gamed
 - Fixing CI failures and reviewer feedback until each task passed quality review
 
+### Why there are no repository links for this work
+
+- **The repositories belong to the client, not to me.** Each task was built in a private repository inside the client's GitHub organisation. My access was removed when each batch finished, so the repositories no longer open even for me.
+- **The work is under NDA.** I agreed not to publish task code, task IDs, repository names or the open-source projects the tasks were built on.
+- **Benchmark tasks must stay out of public view.** These tasks are used to test AI models. If a task appears publicly, it can end up in training data and stops being a fair test, so the task files carry a "never publish" marker.
+
+My GitHub profile still counts these commits as "contributions in private repositories" (most of the green squares from July to November 2026). A written confirmation of this work can be requested from the client.
+
+### Tasks completed
+
+**Repository-level code-change tasks (October 2026): 9 tasks**
+
+Each task: pick a realistic change in a real open-source codebase, write the before/after code states, the task prompt and the reference solution, write fail-to-pass and pass-to-pass tests, build the Docker test environment, and iterate on CI and reviewer feedback until it passes quality review.
+
+| # | Language | Task type | Difficulty tier |
+|---|---|---|---|
+| 1 | Rust | Edge-case fix | Trivial |
+| 2 | Rust | Performance | Trivial |
+| 3 | Rust | Portability | Very Hard |
+| 4 | Python | Performance | Very Easy |
+| 5 | Python | Test repair | Hard |
+| 6 | Python | Refactor | Very Hard |
+| 7 | C++ | Refactor | Trivial |
+| 8 | C# | Portability | Hard |
+| 9 | Go | Refactor | Hard |
+
+**Terminal-environment tasks for AI agents (October 2026): 2 tasks**
+
+Full task packages in Harbor format: instructions, Docker environment, reference solution, and pytest verifier calibrated with oracle and no-op runs.
+
+| # | Category | Subject |
+|---|---|---|
+| 1 | Operations / Compliance | Data erasure across PostgreSQL and Redis |
+| 2 | Hardware / RTL | Hardware-design (RTL) filter task |
+
+**Terminal-environment tasks for AI agents (July–August 2026)**
+
+Harbor-format tasks across data processing, data querying and databases, data science and reporting, ML infrastructure, systems operations, and mathematical reasoning; for example, a log-parsing task with a JSON report and a verifier that checks the computed values rather than file existence.
+
 ## Skills
 
 - **Languages:** JavaScript/TypeScript, Python, Java, SQL (PostgreSQL), plus reading-level Rust, C++, C#, Go
